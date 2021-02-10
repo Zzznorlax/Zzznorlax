@@ -17,24 +17,22 @@ jobs:
       - name: Personal metrics
         uses: lowlighter/metrics@latest
         with:
-          # Your GitHub token
+          filename: metrics.main.svg
           token: ${{ secrets.METRICS_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           base: header, repositories
           # Metrics Isometric Commit Calendar Plugin
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year  # Display full year instead of half year
-          # Repositories Traffic Plugin
-          plugin_traffic: yes
           # Lines of Code Changed Plugin
           plugin_lines: yes
-          config_order: base.header, isocalendar, base.repositories
+          config_order: base.header, base.repositories, isocalendar
           config_padding: 10%
 
       - name: Personal metrics (languages & stars)
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.additional.svg
+          filename: metrics.lang.svg
           token: ${{ secrets.METRICS_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           base: ""
@@ -50,7 +48,7 @@ jobs:
       - name: Personal metrics (recent activities)
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.additional.svg
+          filename: metrics.activities.svg
           token: ${{ secrets.METRICS_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           base: ""
