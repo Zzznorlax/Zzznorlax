@@ -9,4 +9,8 @@
 </table>
 </center>
 
-![Metrics](https://github.com/Zzznorlax/Zzznorlax/blob/main/github-metrics.svg)
+![Main Metrics](https://github.com/Zzznorlax/Zzznorlax/blob/main/metrics.personal.main.svg)
+
+![Language Metrics](https://github.com/Zzznorlax/Zzznorlax/blob/main/metrics.personal.main.svg)
+
+![Activities Metrics](https://github.com/Zzznorlax/Zzznorlax/blob/main/metrics.personal.main.svg)
