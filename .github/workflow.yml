@@ -1,4 +1,0 @@
-
-# Action runs periodically and pushes generated metrics image to profile repository.
-- name: GitHub metrics as SVG image
-  uses: lowlighter/metrics@v3.3
