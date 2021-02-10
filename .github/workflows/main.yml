@@ -29,31 +29,37 @@ jobs:
           config_order: base.header, base.repositories, isocalendar
           config_padding: 10%
 
-      - name: Personal metrics (languages & stars)
+      - name: Personal metrics (languages)
         uses: lowlighter/metrics@latest
         with:
           filename: metrics.personal.lang.svg
           token: ${{ secrets.METRICS_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
-          base: ""
           # Metrics Language Plugin
           plugin_languages: yes
           plugin_languages_details: bytes-size, percentage  # Additionally display total bytes size and percentage
-          # Start Plugin
-          plugin_stars: yes
-          plugin_stars_limit: 1
-          config_order: languages, stars
           config_padding: 6%, 10%
 
-      - name: Personal metrics (recent activities)
+      - name: Personal metrics (recent activity)
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.personal.activities.svg
+          filename: metrics.personal.activity.svg
           token: ${{ secrets.METRICS_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
-          base: ""
+          # Recent Activity Plugin
           plugin_activity: yes
           plugin_activity_limit: 3    # Events limit
           plugin_activity_days: 0    # Keep only events from last n days (can be set to 0 to disable limitations)
           plugin_activity_filter: all # Show all events (use table above to filter events types)
+          config_padding: 6%, 10%
+
+      - name: Personal metrics (starred repositories)
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.personal.starred.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          # Recently Starred Repositories Plugin
+          plugin_stars: yes
+          plugin_stars_limit: 1
           config_padding: 6%, 10%

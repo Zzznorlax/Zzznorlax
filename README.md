@@ -11,6 +11,8 @@
 
 ![Main Metrics](https://github.com/Zzznorlax/Zzznorlax/blob/main/metrics.personal.main.svg)
 
-![Language Metrics](https://github.com/Zzznorlax/Zzznorlax/blob/main/metrics.personal.main.svg)
+![Language Metrics](https://github.com/Zzznorlax/Zzznorlax/blob/main/metrics.personal.lang.svg)
 
-![Activities Metrics](https://github.com/Zzznorlax/Zzznorlax/blob/main/metrics.personal.main.svg)
+![Activities Metrics](https://github.com/Zzznorlax/Zzznorlax/blob/main/metrics.personal.activity.svg)
+
+![Stars Metrics](https://github.com/Zzznorlax/Zzznorlax/blob/main/metrics.personal.starred.svg)
