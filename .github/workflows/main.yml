@@ -35,6 +35,7 @@ jobs:
           filename: metrics.personal.lang.svg
           token: ${{ secrets.METRICS_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
+          base: ""
           # Metrics Language Plugin
           plugin_languages: yes
           plugin_languages_details: bytes-size, percentage  # Additionally display total bytes size and percentage
@@ -46,6 +47,7 @@ jobs:
           filename: metrics.personal.activity.svg
           token: ${{ secrets.METRICS_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
+          base: ""
           # Recent Activity Plugin
           plugin_activity: yes
           plugin_activity_limit: 3    # Events limit
@@ -59,6 +61,7 @@ jobs:
           filename: metrics.personal.starred.svg
           token: ${{ secrets.METRICS_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
+          base: ""
           # Recently Starred Repositories Plugin
           plugin_stars: yes
           plugin_stars_limit: 1
