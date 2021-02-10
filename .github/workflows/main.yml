@@ -17,7 +17,7 @@ jobs:
       - name: Personal metrics
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.main.svg
+          filename: metrics.personal.main.svg
           token: ${{ secrets.METRICS_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           base: header, repositories
@@ -32,7 +32,7 @@ jobs:
       - name: Personal metrics (languages & stars)
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.lang.svg
+          filename: metrics.personal.lang.svg
           token: ${{ secrets.METRICS_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           base: ""
@@ -48,7 +48,7 @@ jobs:
       - name: Personal metrics (recent activities)
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.activities.svg
+          filename: metrics.personal.activities.svg
           token: ${{ secrets.METRICS_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           base: ""
