@@ -41,6 +41,17 @@ jobs:
           plugin_languages_details: bytes-size, percentage  # Additionally display total bytes size and percentage
           config_padding: 6%, 10%
 
+      - name: Personal metrics (gist)
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.personal.gists.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          base: ""
+          # Gists Plugin
+          plugin_gists: yes
+          config_padding: 6%, 10%
+
       - name: Personal metrics (recent activity)
         uses: lowlighter/metrics@latest
         with:

@@ -3,6 +3,8 @@
 
 ![Language Metrics](https://github.com/Zzznorlax/Zzznorlax/blob/main/metrics.personal.lang.svg)
 
+![Gists Metrics](https://github.com/Zzznorlax/Zzznorlax/blob/main/metrics.personal.gists.svg)
+
 ![Activities Metrics](https://github.com/Zzznorlax/Zzznorlax/blob/main/metrics.personal.activity.svg)
 
 ![Stars Metrics](https://github.com/Zzznorlax/Zzznorlax/blob/main/metrics.personal.starred.svg)
