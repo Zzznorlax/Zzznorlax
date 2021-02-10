@@ -21,3 +21,5 @@ jobs:
           # Metrics Isometric Commit Calendar Plugin
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year  # Display full year instead of half year
+          # Lines of Code Changed Plugin
+          plugin_lines: yes
