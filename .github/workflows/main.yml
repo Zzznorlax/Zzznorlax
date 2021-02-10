@@ -1,25 +1,61 @@
+# See https://github.com/lowlighter/metrics for documentation
+# This workflow is scheduled for every hour, and also run after each commit (GitHub action excluded) on master/main branch
 name: Metrics
+
 on:
   # Schedule updates (each hour)
   schedule: [{cron: "0 * * * *"}]
   # Lines below let you run workflow manually and on each commit (optional)
   push: {branches: ["master", "main"]}
   workflow_dispatch:
+
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-      # See action.yml for all options
-      - uses: lowlighter/metrics@latest
+
+      - name: Personal metrics
+        uses: lowlighter/metrics@latest
         with:
           # Your GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
-          # Metrics Language Plugin
-          plugin_languages: yes
-          plugin_languages_details: bytes-size, percentage  # Additionally display total bytes size and percentage
+          base: header, repositories
           # Metrics Isometric Commit Calendar Plugin
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year  # Display full year instead of half year
+          # Repositories Traffic Plugin
+          plugin_traffic: yes
           # Lines of Code Changed Plugin
           plugin_lines: yes
+          config_order: base.header, isocalendar, base.repositories
+          config_padding: 10%
+
+      - name: Personal metrics (languages & stars)
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.additional.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          base: ""
+          # Metrics Language Plugin
+          plugin_languages: yes
+          plugin_languages_details: bytes-size, percentage  # Additionally display total bytes size and percentage
+          # Start Plugin
+          plugin_stars: yes
+          plugin_stars_limit: 1
+          config_order: languages, stars
+          config_padding: 6%, 10%
+
+      - name: Personal metrics (recent activities)
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.additional.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          base: ""
+          plugin_activity: yes
+          plugin_activity_limit: 3    # Events limit
+          plugin_activity_days: 0    # Keep only events from last n days (can be set to 0 to disable limitations)
+          plugin_activity_filter: all # Show all events (use table above to filter events types)
+          config_padding: 6%, 10%
