@@ -1003,21 +1003,21 @@
         </mask>
         <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
         
-          <rect mask="url(#languages-bar)" x="0" y="0" width="172.15127548445483" height="8" fill="#f34b7d"/>
+          <rect mask="url(#languages-bar)" x="0" y="0" width="171.13766507649004" height="8" fill="#f34b7d"/>
         
-          <rect mask="url(#languages-bar)" x="172.15127548445483" y="0" width="103.97007474470637" height="8" fill="#3572A5"/>
+          <rect mask="url(#languages-bar)" x="171.13766507649004" y="0" width="103.35790879019022" height="8" fill="#3572A5"/>
         
-          <rect mask="url(#languages-bar)" x="276.1213502291612" y="0" width="74.01026135840677" height="8" fill="#89e051"/>
+          <rect mask="url(#languages-bar)" x="274.4955738666802" y="0" width="73.57449594802588" height="8" fill="#89e051"/>
         
-          <rect mask="url(#languages-bar)" x="350.131611587568" y="0" width="36.521539785431884" height="8" fill="#00ADD8"/>
+          <rect mask="url(#languages-bar)" x="348.07006981470613" y="0" width="39.0149408573348" height="8" fill="#00ADD8"/>
         
-          <rect mask="url(#languages-bar)" x="386.6531513729999" y="0" width="34.60999823787944" height="8" fill="#b07219"/>
+          <rect mask="url(#languages-bar)" x="387.08501067204094" y="0" width="34.40621784569334" height="8" fill="#b07219"/>
         
-          <rect mask="url(#languages-bar)" x="421.26314961087934" y="0" width="31.654152189049878" height="8" fill="#F18E33"/>
+          <rect mask="url(#languages-bar)" x="421.4912285177343" y="0" width="31.467775538491626" height="8" fill="#F18E33"/>
         
-          <rect mask="url(#languages-bar)" x="452.9173017999292" y="0" width="3.5932888868359325" height="8" fill="#f1e05a"/>
+          <rect mask="url(#languages-bar)" x="452.9590040562259" y="0" width="3.572131942141381" height="8" fill="#f1e05a"/>
         
-          <rect mask="url(#languages-bar)" x="456.5105906867651" y="0" width="3.4894093132348942" height="8" fill="#427819"/>
+          <rect mask="url(#languages-bar)" x="456.5311359983673" y="0" width="3.468864001632695" height="8" fill="#427819"/>
         
       </svg>
       
@@ -1032,7 +1032,7 @@
                   </div>
                   <small>
                      <div>218 kB</div>
-                     <div>37.42%</div>
+                     <div>37.2%</div>
                   </small>
                 </div>
               
@@ -1043,7 +1043,7 @@
                   </div>
                   <small>
                      <div>94 kB</div>
-                     <div>16.09%</div>
+                     <div>15.99%</div>
                   </small>
                 </div>
               
@@ -1054,7 +1054,7 @@
                   </div>
                   <small>
                      <div>43.9 kB</div>
-                     <div>7.52%</div>
+                     <div>7.48%</div>
                   </small>
                 </div>
               
@@ -1080,7 +1080,7 @@
                   </div>
                   <small>
                      <div>132 kB</div>
-                     <div>22.6%</div>
+                     <div>22.47%</div>
                   </small>
                 </div>
               
@@ -1090,8 +1090,8 @@
                     Go
                   </div>
                   <small>
-                     <div>46.4 kB</div>
-                     <div>7.94%</div>
+                     <div>49.8 kB</div>
+                     <div>8.48%</div>
                   </small>
                 </div>
               
@@ -1102,7 +1102,7 @@
                   </div>
                   <small>
                      <div>40.2 kB</div>
-                     <div>6.88%</div>
+                     <div>6.84%</div>
                   </small>
                 </div>
               
@@ -1113,7 +1113,7 @@
                   </div>
                   <small>
                      <div>4.43 kB</div>
-                     <div>0.76%</div>
+                     <div>0.75%</div>
                   </small>
                 </div>
               
