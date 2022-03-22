@@ -29,8 +29,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#4c9d4a1</div>
-                                        <div class="message">docs(readme): move readme to base dir</div>
+                                        <div class="sha">#35d4b89</div>
+                                        <div class="message">docs(readme): add instructions for assembling hdr image</div>
                                     </div>
                                 </div>
                             </section>
@@ -49,8 +49,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#f3887c2</div>
-                                        <div class="message">docs(readme): add initial readme.md</div>
+                                        <div class="sha">#39c58ed</div>
+                                        <div class="message">docs(readme): fix image links</div>
                                     </div>
                                 </div>
                             </section>
@@ -69,8 +69,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#208a894</div>
-                                        <div class="message">feat(utils): add image utils</div>
+                                        <div class="sha">#69cda95</div>
+                                        <div class="message">docs(readme): add mtb showcase</div>
                                     </div>
                                 </div>
                             </section>
