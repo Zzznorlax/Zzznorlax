@@ -29,8 +29,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#3c7924a</div>
-                                        <div class="message">feat(motion): use diff in optical flow</div>
+                                        <div class="sha">#6e940e6</div>
+                                        <div class="message">fix(image): fix save image seq argument</div>
                                     </div>
                                 </div>
                             </section>
@@ -49,8 +49,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#859a3d8</div>
-                                        <div class="message">refactor(motion): remove binary cumulation func</div>
+                                        <div class="sha">#24cab11</div>
+                                        <div class="message">feat(image): add save image seq to image utils</div>
                                     </div>
                                 </div>
                             </section>
@@ -69,8 +69,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#756b2ea</div>
-                                        <div class="message">feat(motion): merge optical flow, mhi and dynamic image into motion.py</div>
+                                        <div class="sha">#fb50727</div>
+                                        <div class="message">style(motion): reorder functions</div>
                                     </div>
                                 </div>
                             </section>
