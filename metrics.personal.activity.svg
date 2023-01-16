@@ -29,8 +29,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#716c7e9</div>
-                                        <div class="message">feat(model): add deep matmul network and use mssim + smoothl1loss for training</div>
+                                        <div class="sha">#281e29c</div>
+                                        <div class="message">feat(v11_matmul_mssim): add result visualization feature</div>
                                     </div>
                                 </div>
                             </section>
@@ -49,8 +49,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#3d42966</div>
-                                        <div class="message">feat(train): test training for matmul combined with mssim loss</div>
+                                        <div class="sha">#816e431</div>
+                                        <div class="message">feat(train): add validation in training</div>
                                     </div>
                                 </div>
                             </section>
@@ -69,8 +69,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#d19214b</div>
-                                        <div class="message">fix(model): use matmul network for conv network structure causes the output to be problematic</div>
+                                        <div class="sha">#e606e2a</div>
+                                        <div class="message">feat(model): add deep matmul network as in paper</div>
                                     </div>
                                 </div>
                             </section>
